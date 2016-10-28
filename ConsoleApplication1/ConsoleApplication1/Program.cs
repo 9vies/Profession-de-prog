@@ -10,6 +10,11 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
+            int chiffre = int.Parse(Console.ReadLine());
+            for (int i = 1; i <= chiffre; i++)
+            {
+                Console.WriteLine("Cansur" +  " {0}", i);
+            }
         }
     }
 }
