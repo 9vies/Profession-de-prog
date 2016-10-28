@@ -24,6 +24,7 @@ namespace ConsoleApplication1
                     Console.WriteLine("Cansur" + " {0}", i);
                 }
             }
+            Console.WriteLine("Cansur killed Harambe");
         }
     }
 }
