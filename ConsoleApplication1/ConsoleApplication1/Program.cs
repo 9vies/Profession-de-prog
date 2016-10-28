@@ -9,11 +9,20 @@ namespace ConsoleApplication1
     class Program
     {
         static void Main(string[] args)
-        { Console.WriteLine("harambe was just a gorilla");
+        {
+            const string HARAMBE = "HARAMBE WAS NOT JUST A GORILLA U CUNTFACE";
+            Console.WriteLine(HARAMBE);
             int chiffre = int.Parse(Console.ReadLine());
             for (int i = 1; i <= chiffre; i++)
-            {
-                Console.WriteLine("Cansur" +  " {0}", i);
+            {               
+                if (i < chiffre/4)
+                {
+                    Console.WriteLine("Cansur non généralisé" + " {0}", i);
+                }
+                else
+                {
+                    Console.WriteLine("Cansur" + " {0}", i);
+                }
             }
         }
     }
