@@ -9,7 +9,7 @@ namespace ConsoleApplication1
     class Program
     {
         static void Main(string[] args)
-        {
+        { Console.WriteLine("harambe was just a gorilla");
             int chiffre = int.Parse(Console.ReadLine());
             for (int i = 1; i <= chiffre; i++)
             {
